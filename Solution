@@ -1,4 +1,4 @@
-makematrix <- function(x = matrix()) {
+matrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y) {
                 x <<- y
